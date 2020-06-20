@@ -2,7 +2,8 @@
 set -e
 
 # This script will create a local git repository for the script files in the
-#+ '.scripts' directory
+# '.scripts' directory
+# Only run script on a new "uninitialized" repository on github.
 
 # Check for and create 'scripts' directory
 [ ! -d "/home/kim/.scripts" ] && mkdir /home/kim/.scripts
