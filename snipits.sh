@@ -12,3 +12,9 @@ ssh-copy-id kim@192.168.0.102
 # Find the IP of computer
 ifconfig
 
+# One-liner to show & refresh sensors data for the cpu.
+watch -n 2 sensors
+
+# Update xrdb with '.Xresources' file
+xrdb ~/.Xresources
+
