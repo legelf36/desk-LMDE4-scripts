@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# This script is to update my 'desk-LMDE4-scripts' repository on github.
+# This script is to update my 'desk-LMDE4-dotfiles' repository on github.
 
-# Push to the stack and move to the 'scripts' directory.
+# Push to the stack and move to the 'desk-LMDE4-dotfiles' directory.
 pushd /home/kim/projects/desk-LMDE4-dotfiles/
 
 # Add any changes to 'master' branch.
