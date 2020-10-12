@@ -6,7 +6,7 @@ set -e
 sudo apt install -y autoconf automake build-essential cmake gcc libtool libudev-dev
 sudo apt install -y qt5-default zlib1g-dev libappindicator-dev libpulse-dev
 sudo apt install -y libquazip5-dev libqt5x11extras5-dev libxcb-screensaver0-dev
-sudo apt install -y libxcb-ewmh-dev libxcb1-dev qttools5-dev
+sudo apt install -y libxcb-ewmh-dev libxcb1-dev git libdbusmenu-qt5-dev qttools5-dev
 sudo apt install -y make python-all python-setuptools python3-all python3-setuptools
 
 # Install additional programs
@@ -39,7 +39,7 @@ git config --global user.email "krfleg2@accesscomm.ca"
 pushd /home/kim/projects
 git clone https://github.com/legelf36/desk-LMDE4-dotfiles.git
 git clone https://github.com/b-ryan/powerline-shell.git
-git clone https://github.com/ckb-next.git
+git clone https://github.com/ckb-next/ckb-next.git
 popd
 
 # Check for '.scripts' directory, move to it and clone script files
