@@ -40,6 +40,9 @@ sudo apt install -y geany
 sudo apt install -y numlockx
 numlockx on
 
+# install nvtop
+sudo apt install nvtop
+
 # change wallpapers with feh and variety
 # sudo apt install -y feh
 
