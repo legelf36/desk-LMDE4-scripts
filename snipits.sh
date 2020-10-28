@@ -18,3 +18,11 @@ watch -n 2 sensors
 # Update xrdb with '.Xresources' file
 xrdb ~/.Xresources
 
+# Create a symbolic link.
+# ln -s target_file link_name
+
+# What does a command do.
+# whatis <command>
+
+# Find commands related to subject.
+# apropos <subject>

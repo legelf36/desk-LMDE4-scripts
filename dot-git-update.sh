@@ -9,11 +9,11 @@ pushd /home/kim/projects/desk-LMDE4-dotfiles/
 git add -A
 
 # Commit changes to the 'master' branch.
-git commit -m "update to scripts"
+git commit -m "update to dotfiles"
 
 # Push the changes to the github repository.
 git push -u
 
-# Go to previous directory and remove '.scripts' from the stack
+# Go to previous directory and remove 'desk-LMDE4-dotfiles' from the stack
 popd
 
